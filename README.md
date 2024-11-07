@@ -1,4 +1,4 @@
-#Buscador de Anime
+# Buscador de Anime
 
 **Buscador de anime** es una aplicación web que permite buscar series y películas de anime y mostrarlas en pantalla. Los usuarios pueden añadir sus animes favoritos a una lista personalizada, que se guarda en el LocalStorage de su navegador, para tener acceso a ellos incluso después de recargar la página.
 
