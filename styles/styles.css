@@ -1,3 +1,11 @@
+.lists{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 5%;
+    gap: 3%;
+
+}
+
 .list-anime img{
     width: 30%;
 }
@@ -7,10 +15,18 @@
 }
 
 .containers{
-    width: 100%;
-    border: 1px solid black;
-    background-color: rgb(161, 226, 231);
+    width: 50%;
+    background-color: rgb(184, 230, 233);
     display: flex;
     flex-direction: column;
+    text-align: center;
     
+  }
+  .containers-favorities{
+    width: 50%;
+    background-color: rgb(228, 172, 227);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
   }
