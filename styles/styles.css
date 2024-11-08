@@ -1,32 +1,32 @@
-.lists{
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: 5%;
-    gap: 3%;
-
+.lists {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 5%;
+  gap: 3%;
 }
 
-.list-anime img{
-    width: 30%;
+.list-anime img {
+  width: 30%;
 }
 
-.list-anime h5{
-    font-size: 18px;
+.list-anime h5 {
+  font-size: 18px;
 }
 
-.containers{
-    width: 50%;
-    background-color: rgb(184, 230, 233);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    
-  }
-  .containers-favorities{
-    width: 50%;
-    background-color: rgb(228, 172, 227);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-  }
+.containers {
+  width: 50%;
+  background-color: rgb(184, 230, 233);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.containers-favorities {
+  width: 50%;
+  background-color: rgb(228, 172, 227);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.favorite {
+  color: pink;
+}
