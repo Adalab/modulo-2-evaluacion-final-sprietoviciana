@@ -1,32 +1,64 @@
+* {
+  background-color: azure;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px;
+}
+.search {
+  text-align: center;
+}
+.search input {
+  width: 200px;
+  padding: 3px;
+}
+.search button {
+  width: 90px;
+  padding: 3px;
+  color: rgb(43, 145, 208);
+}
+h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  border: 2px solid;
+  padding: 4px;
+}
 .lists {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: center;
   margin-top: 5%;
-  gap: 3%;
+  gap: 20px;
 }
-
+.list-anime {
+  border: 2px solid black;
+  width: 200px;
+  padding: 5px;
+}
 .list-anime img {
-  width: 30%;
+  width: 50%;
+  margin-bottom: 20px;
 }
 
 .list-anime h5 {
   font-size: 18px;
+  padding: 3px;
+  
 }
 
 .containers {
-  width: 50%;
-  background-color: rgb(184, 230, 233);
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 .containers-favorities {
-  width: 50%;
-  background-color: rgb(228, 172, 227);
   display: flex;
   flex-direction: column;
   text-align: center;
+  color: rgb(29, 152, 228);
 }
 .favorite {
-  color: pink;
+  color: rgb(244, 70, 154);
+  border: 5px solid rgb(221, 146, 210);
 }

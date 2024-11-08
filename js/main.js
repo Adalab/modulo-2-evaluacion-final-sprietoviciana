@@ -4,7 +4,6 @@ const input = document.querySelector(".js-input");
 const buttonSearch = document.querySelector(".js-btn-search");
 const containers = document.querySelector(".js-containers");
 const favoritesContainer = document.querySelector(".js-favorities");
-
 const favoritesFromLocalStorage = localStorage.getItem("filmFavorites");
 let favorites = [];
 
